@@ -29,6 +29,18 @@ angular.module('Sim', ['ionic'])
 		controller: 'HomeCtrl'
 	})
 
+	.state('text', {
+		url: '/text',
+		templateUrl: 'views/text.html',
+		controller: 'TextCtrl'
+	})
+
+	.state('domelements', {
+		url: '/domelements',
+		templateUrl: 'views/domelements.html',
+		controller: 'DomelementsCtrl'
+	})
+
 	.state('keyMovement', {
 		url: '/keyMovement',
 		templateUrl: 'views/keymovement.html',
